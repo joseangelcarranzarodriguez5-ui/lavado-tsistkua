@@ -1,0 +1,250 @@
+<!doctype html>
+
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lavado Eficiente — Lavado de Autos Profesional</title>
+  <meta name="description" content="Lavado Eficiente: limpieza de autos rápida, responsable y honesta. Servicio eco-friendly, puntual y de alta calidad." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent:#0ea5a4;
+      --dark:#0f172a;
+      --muted:#6b7280;
+      --bg:#f8fafc;
+      --card:#ffffff;
+      --glass: rgba(255,255,255,0.6);
+      --maxw:1100px;
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#ffffff 0%, #f1f5f9 100%);color:var(--dark);line-height:1.45}
+    .container{max-width:var(--maxw);margin:0 auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .logo{display:flex;align-items:center;gap:12px}
+    .logo img{height:56px;width:auto}
+    nav{display:flex;gap:18px;align-items:center}
+    nav a{color:var(--dark);text-decoration:none;font-weight:600}
+    .btn{background:var(--accent);color:white;padding:10px 16px;border-radius:12px;text-decoration:none;font-weight:700}/* Hero */
+.hero{display:grid;grid-template-columns:1fr;gap:20px;align-items:center;padding:36px 0}
+.hero-card{background:var(--card);padding:28px;border-radius:16px;box-shadow:0 8px 30px rgba(2,6,23,0.06)}
+.kicker{display:inline-block;padding:6px 10px;background:linear-gradient(90deg, rgba(14,165,164,0.12), rgba(14,165,164,0.06));border-radius:999px;font-weight:700;color:var(--accent);margin-bottom:12px}
+h1{font-size:clamp(26px,4.5vw,44px);margin:0 0 12px}
+p.lead{color:var(--muted);margin:0 0 18px}
+
+/* Features */
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:18px}
+.feature{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.04);display:flex;gap:12px;align-items:flex-start}
+.feature svg{flex:0 0 44px}
+.feature h4{margin:0 0 6px}
+.feature p{margin:0;color:var(--muted);font-size:14px}
+
+/* Services */
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin:32px 0}
+.service{background:linear-gradient(180deg,var(--glass),var(--card));padding:18px;border-radius:14px;border:1px solid rgba(15,23,42,0.04)}
+.service h3{margin:0 0 8px}
+.service p{margin:0;color:var(--muted);font-size:14px}
+
+/* Testimonial */
+.testimonials{display:grid;gap:12px;margin:18px 0}
+.testi{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.04)}
+
+/* Contact */
+.contact{display:grid;grid-template-columns:1fr;gap:12px;margin:24px 0}
+form{display:grid;gap:12px}
+input,textarea{padding:12px;border-radius:10px;border:1px solid #e6e9ef;font-size:14px}
+input[type=submit]{background:var(--accent);color:#fff;border:0;padding:12px;border-radius:10px;font-weight:700;cursor:pointer}
+
+footer{padding:18px 0;color:var(--muted);font-size:14px;border-top:1px solid rgba(15,23,42,0.04);margin-top:36px}
+
+/* Responsive */
+@media(min-width:900px){
+  .hero{grid-template-columns:1fr 420px}
+  .contact{grid-template-columns:1fr 380px}
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <!-- Reemplaza src por tu logo: ejemplo: src="logo.png" -->
+        <img src="logo-placeholder.png" alt="Logo Lavado Eficiente" />
+        <div>
+          <strong>Lavado Eficiente</strong>
+          <div style="font-size:12px;color:var(--muted)">Limpio • Rápido • Confiable</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#sobre-nosotros">Sobre nosotros</a>
+        <a href="#contacto" class="btn">Reservar</a>
+      </nav>
+    </header><main>
+  <section class="hero">
+    <div class="hero-card">
+      <span class="kicker">Servicio premium</span>
+      <h1>Lavado de autos eficiente, responsable y honesto</h1>
+      <p class="lead">En <strong>Lavado Eficiente</strong> combinamos rapidez, calidad y responsabilidad ambiental. Atención puntual, precios claros y resultados que hablan por sí mismos.</p>
+
+      <div class="features">
+        <div class="feature">
+          <svg width="44" height="44" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 11c0-3.866 3.134-7 7-7s7 3.134 7 7" stroke="#0ea5a4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 21H3v-6a9 9 0 0 1 18 0v6z" stroke="#0ea5a4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div>
+            <h4>Responsables</h4>
+            <p>Productos biodegradables y procesos que reducen el consumo de agua.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <svg width="44" height="44" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 12h18" stroke="#0ea5a4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 7l-3 5 3 5" stroke="#0ea5a4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div>
+            <h4>Eficientes</h4>
+            <p>Atención rápida sin sacrificar detalle — tu auto listo en tiempo récord.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <svg width="44" height="44" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2v10" stroke="#0ea5a4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M19 21H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2z" stroke="#0ea5a4" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <div>
+            <h4>Honestos</h4>
+            <p>Precios transparentes, sin cargos escondidos — siempre te informamos antes de trabajar.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="margin-top:18px;display:flex;gap:12px;align-items:center">
+        <a href="#contacto" class="btn">Reservar ahora</a>
+        <a href="#sobre-nosotros" style="text-decoration:none;color:var(--muted);font-weight:700">Saber más →</a>
+      </div>
+    </div>
+
+    <aside style="padding:0 0 0 8px">
+      <div style="background:linear-gradient(180deg,#ecfeff,#ffffff);border-radius:16px;padding:20px;box-shadow:0 12px 40px rgba(2,6,23,0.06);">
+        <h3 style="margin:0 0 8px">¿Por qué elegirnos?</h3>
+        <p style="margin:0 0 12px;color:var(--muted)">Personal capacitado, productos eco-friendly y compromiso con la satisfacción del cliente.</p>
+        <ul style="margin:0;padding-left:18px;color:var(--muted)">
+          <li>Garantía de calidad</li>
+          <li>Puntualidad y profesionalismo</li>
+          <li>Transparencia total en precios</li>
+        </ul>
+        <div style="margin-top:12px;display:flex;gap:8px;align-items:center">
+          <a href="#contacto" class="btn">Contáctanos</a>
+          <a href="tel:+5215555555555" style="text-decoration:none;color:var(--dark);font-weight:700">Llámanos</a>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Lavado exterior rápido</h3>
+        <p>Limpieza completa de la carrocería, secado y brillo en menos de 30 minutos.</p>
+      </div>
+      <div class="service">
+        <h3>Lavado completo (interior + exterior)</h3>
+        <p>Aspirado, limpieza de vestiduras, tablero y lavado exterior detallado.</p>
+      </div>
+      <div class="service">
+        <h3>Encerado y protección</h3>
+        <p>Protege la pintura con encerado profesional para mayor durabilidad del acabado.</p>
+      </div>
+      <div class="service">
+        <h3>Descontaminación y tratamiento</h3>
+        <p>Retiro de manchas, pulido leve y tratamiento para recuperar el brillo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre-nosotros">
+    <h2>Sobre nosotros</h2>
+    <div style="display:grid;grid-template-columns:1fr;gap:12px;align-items:center">
+      <div style="background:var(--card);padding:16px;border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.04)">
+        <p style="margin:0;color:var(--muted)">Somos un equipo con experiencia en detalle automotriz y servicio al cliente. Creemos en prácticas sostenibles y en ofrecer un servicio honesto y transparente. Nuestra misión es dejar tu auto como nuevo, cuidando el planeta y tu bolsillo.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Testimonios</h2>
+    <div class="testimonials">
+      <div class="testi">
+        <strong>María G.</strong>
+        <p style="margin:6px 0 0;color:var(--muted)">"Servicio rápido y el auto quedó impecable. Muy profesionales y precios claros."</p>
+      </div>
+      <div class="testi">
+        <strong>Carlos R.</strong>
+        <p style="margin:6px 0 0;color:var(--muted)">"Me gustó que usaran productos biodegradables. Recomendados 100%."</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto y Reservaciones</h2>
+    <div class="contact">
+      <div>
+        <div style="background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.04);">
+          <p style="margin:0 0 8px"><strong>Dirección:</strong> Calle Falsa 123, Ciudad</p>
+          <p style="margin:0 0 8px"><strong>Teléfono:</strong> <a href="tel:+5215555555555">+52 1 55 5555 5555</a></p>
+          <p style="margin:0 0 8px"><strong>Email:</strong> <a href="mailto:info@lavadoeficiente.com">info@lavadoeficiente.com</a></p>
+          <p style="margin:12px 0 0;color:var(--muted)">Horarios: Lun - Sab 8:00 - 18:00</p>
+        </div>
+
+        <div style="margin-top:12px">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18" style="width:100%;height:220px;border:0;border-radius:10px" loading="lazy" title="Mapa ubicación"></iframe>
+        </div>
+      </div>
+
+      <form onsubmit="return handleSubmit(event)">
+        <input type="text" id="name" placeholder="Nombre completo" required />
+        <input type="tel" id="phone" placeholder="Teléfono" required />
+        <input type="email" id="email" placeholder="Correo electrónico" required />
+        <textarea id="message" rows="5" placeholder="¿Qué servicio necesitas?"></textarea>
+        <input type="submit" value="Enviar solicitud" />
+        <div id="formMsg" style="font-size:13px;color:var(--muted)"></div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+    <div>&copy; <span id="year"></span> Lavado Eficiente — Todos los derechos reservados</div>
+    <div style="color:var(--muted)">Hecho con cuidado y productos biodegradables</div>
+  </div>
+</footer>
+
+  </div>  <script>
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const formMsg = document.getElementById('formMsg');
+
+      if(!name || !phone || !email){
+        formMsg.textContent = 'Por favor completa los campos requeridos.';
+        return false;
+      }
+
+      // Aquí puedes conectar a tu backend o usar un servicio de formularios (Formspree, Getform, etc.)
+      // Por ahora abrimos el cliente de correo con los datos (mailto)
+      const subject = encodeURIComponent('Reserva - Lavado Eficiente ('+name+')');
+      const body = encodeURIComponent('Nombre: '+name+"\nTeléfono: "+phone+"\nEmail: "+email+"\n\nMensaje:\n"+message);
+      window.location.href = mailto:info@lavadoeficiente.com?subject=${subject}&body=${body};
+      formMsg.textContent = 'Se abrió tu cliente de correo para enviar la solicitud. También puedes llamarnos.';
+      return false;
+    }
+  </script></body>
+</html>
